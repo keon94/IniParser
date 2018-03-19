@@ -1,0 +1,1 @@
+A project for parsing .ini files in C++

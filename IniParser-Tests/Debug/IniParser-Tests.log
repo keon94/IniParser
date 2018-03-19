@@ -1,0 +1,6 @@
+﻿entry-point.obj : error LNK2019: unresolved external symbol "public: static class testing::UnitTest * __cdecl testing::UnitTest::GetInstance(void)" (?GetInstance@UnitTest@testing@@SAPAV12@XZ) referenced in function "int __cdecl RUN_ALL_TESTS(void)" (?RUN_ALL_TESTS@@YAHXZ)
+entry-point.obj : error LNK2019: unresolved external symbol "public: int __thiscall testing::UnitTest::Run(void)" (?Run@UnitTest@testing@@QAEHXZ) referenced in function "int __cdecl RUN_ALL_TESTS(void)" (?RUN_ALL_TESTS@@YAHXZ)
+entry-point.obj : error LNK2019: unresolved external symbol "void __cdecl testing::InitGoogleTest(int *,char * *)" (?InitGoogleTest@testing@@YAXPAHPAPAD@Z) referenced in function _main
+c:\users\keon\source\repos\IniParser\lib\gtest.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\users\keon\source\repos\IniParser\lib\gmock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\users\keon\source\repos\IniParser\Debug\IniParser-Tests.exe : fatal error LNK1120: 3 unresolved externals
