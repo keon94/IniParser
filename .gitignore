@@ -15,7 +15,6 @@
 *.so
 *.dylib
 *.dll
-*.lib
 
 # Fortran module files
 *.mod
@@ -44,12 +43,9 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
 [Rr]eleases/
-x64/
-x86/
+*.tlog/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -96,7 +92,6 @@ StyleCopReport.xml
 *.meta
 *.obj
 *.pch
-*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -111,6 +106,7 @@ StyleCopReport.xml
 *.vssscc
 .builds
 *.pidb
+*.idb
 *.svclog
 *.scc
 
