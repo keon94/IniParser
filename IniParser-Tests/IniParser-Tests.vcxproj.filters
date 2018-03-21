@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="entry-point.cpp">
+    <ClCompile Include="src\iniParser-Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\iniParser-Tests.cpp">
+    <ClCompile Include="src\entry-point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

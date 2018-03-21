@@ -3,6 +3,8 @@
 
 #include <fstream>
 
+#define DEBUG 
+
 class IniParser {
 public:
 	IniParser();
@@ -10,8 +12,24 @@ public:
 
 private:
 
-	std::string _fileName;
+	std::string _filePath;
+	std::string _iniString;
 	std::ifstream _iniFile;
+
+	/**
+	 * \brief replaces the commented chars from \ref _iniString with ' '
+	 */
+	void removeComments();
+	/**
+	* \brief removes the \a char c from _iniString
+	* \param c the char to remove
+	*/
+	void removeChar(char c);
+
+	/**
+	* \brief removes blank lines
+	*/
+	void removeBlankLines();
 
 };
 
